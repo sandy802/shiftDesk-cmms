@@ -6,19 +6,19 @@ class TicketManager:
         self.storage = StorageStub()
         
     def create_ticket(self):
-    pass
+        pass
 
     def assign_ticket(self):
-    pass
+        pass
     
     def close_ticket(self):
-    pass
+        pass
 
     def list_tickets(self):
-    pass
+        pass
 
     def get_ticket(self, ticket_id):
-    pass
+        pass
 
     def validate_role(self):
-    pass
+        pass
