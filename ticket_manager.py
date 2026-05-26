@@ -1,24 +1,30 @@
 from storage_stub import StorageStub
-
 class TicketManager:
+    def create_ticket(self):
+        print("Ticket Created")
 
     def __init__(self):
         self.storage = StorageStub()
         
     def create_ticket(self):
-    pass
+        pass
 
     def assign_ticket(self):
-    pass
+        pass
     
     def close_ticket(self):
-    pass
+        pass
 
     def list_tickets(self):
-    pass
+        pass
 
     def get_ticket(self, ticket_id):
-    pass
+        pass
 
     def validate_role(self):
-    pass
+        pass
+    
+#main 
+if __name__ == "__main__":
+    tm = TicketManager()
+    tm.create_ticket()
