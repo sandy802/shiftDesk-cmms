@@ -1,6 +1,7 @@
 from storage_stub import StorageStub
-
 class TicketManager:
+    def create_ticket(self):
+        print("Ticket Created")
 
     def __init__(self):
         self.storage = StorageStub()
@@ -22,3 +23,8 @@ class TicketManager:
 
     def validate_role(self):
         pass
+    
+#main 
+if __name__ == "__main__":
+    tm = TicketManager()
+    tm.create_ticket()
