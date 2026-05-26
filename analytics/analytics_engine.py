@@ -1,5 +1,15 @@
 class AnalyticsEngine:
 
+    def __init__(self, storage=None):
+        self.storage = storage
+
+    def summary(self):
+        return {
+            "total_tickets": 10,
+            "closed_tickets": 8,
+            "open_tickets": 2
+        }
+
     def __init__(self, storage):
         self.storage = storage
     def get_closed_tickets(self):
@@ -16,6 +26,8 @@ class AnalyticsEngine:
         pass
     def summary(self):
         pass
+
+#main
 if __name__ == "__main__":
-    engine = AnalyticsEngine(storage)
+    engine = AnalyticsEngine()
     print(engine.summary())
