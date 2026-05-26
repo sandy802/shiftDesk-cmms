@@ -1,8 +1,5 @@
 class AnalyticsEngine:
 
-    #def __init__(self, storage=None):
-        #self.storage = storage
-
     def summary(self):
         return {
             "total_tickets": 10,
