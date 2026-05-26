@@ -19,3 +19,6 @@ class TicketManager:
 
     def get_ticket(self, ticket_id):
     pass
+
+    def validate_role(self):
+    pass
