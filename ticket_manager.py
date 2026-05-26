@@ -1,8 +1,11 @@
-from storage_stub import StorageStub
-
+#from storage_stub import StorageStub
 class TicketManager:
+    #########testing
+    def create_ticket(self):
+        print("Ticket Created")
+    #########testing
 
-    def __init__(self):
+    #def __init__(self):
         self.storage = StorageStub()
         
     def create_ticket(self):
