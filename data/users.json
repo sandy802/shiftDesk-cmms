@@ -1,5 +1,17 @@
 [
     {
-        "name": "Sandesh"
+        "user_id": 1,
+        "name": "Sandesh",
+        "role": "Admin"
+    },
+    {
+        "user_id": 2,
+        "name": "Rahul",
+        "role": "Technician"
+    },
+    {
+        "user_id": 3,
+        "name": "Priya",
+        "role": "Manager"
     }
 ]
