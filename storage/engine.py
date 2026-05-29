@@ -8,12 +8,14 @@ class StorageEngine:
         self.data_path = Path("data")
 
     def save_data(self, filename, data):
+
         file_path = self.data_path / filename
 
         with open(file_path, "w") as file:
             json.dump(data, file, indent=4)
 
     def load_data(self, filename):
+
         file_path = self.data_path / filename
 
         if not file_path.exists():
