@@ -1,0 +1,16 @@
+[
+    {
+        "ticket_id": 1001,
+        "machine_id": 101,
+        "issue": "Motor overheating",
+        "priority": "High",
+        "status": "Closed"
+    },
+    {
+        "ticket_id": 1001,
+        "machine_id": 101,
+        "issue": "Motor overheating",
+        "priority": "High",
+        "status": "Open"
+    }
+]
