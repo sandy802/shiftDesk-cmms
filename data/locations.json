@@ -1,0 +1,14 @@
+[
+    {
+        "location_id": 1,
+        "name": "Plant A"
+    },
+    {
+        "location_id": 2,
+        "name": "Plant B"
+    },
+    {
+        "location_id": 3,
+        "name": "Warehouse"
+    }
+]

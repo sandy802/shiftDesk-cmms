@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "machine_id": 101,
+        "machine_name": "CNC Machine",
+        "status": "Running",
+        "location": "Plant A"
+    },
+    {
+        "machine_id": 102,
+        "machine_name": "Conveyor Belt",
+        "status": "Maintenance",
+        "location": "Plant B"
+    },
+    {
+        "machine_id": 103,
+        "machine_name": "Hydraulic Press",
+        "status": "Idle",
+        "location": "Plant A"
+    },
+    {
+        "machine_id": 104,
+        "machine_name": "Cooling System",
+        "status": "Running",
+        "location": "Warehouse"
+    },
+    {
+        "machine_id": 105,
+        "machine_name": "Packaging Unit",
+        "status": "Stopped",
+        "location": "Plant B"
+    }
+]
