@@ -16,8 +16,10 @@ class StorageEngine:
         if "user_id" in record:
             return "user_id"
         return None
+    
 
     def load_data(self, filename):
+
         file_path = self.data_path / filename
 
         if not file_path.exists():
