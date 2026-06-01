@@ -1,0 +1,4 @@
+machine_id,machine_name,location_id,status,is_active,created_at
+M112,CNC Machine,location_id,Active,True,2026-06-01
+120,textile,location_id,inactive,False,2026-06-01
+,,location_id,Active,True,2026-06-01
