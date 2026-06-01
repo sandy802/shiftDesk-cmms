@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "id": 1001,
+        "issue": "Motor overheating in production line 3",
+        "status": "open"
+    },
+    {
+        "id": 1002,
+        "issue": "Hydraulic oil leakage near pump system",
+        "status": "In Progress"
+    },
+    {
+        "id": 1003,
+        "issue": "Sensor failure on conveyor belt",
+        "status": "Closed"
+    },
+    {
+        "id": 1004,
+        "issue": "Power fluctuation in control panel",
+        "status": "Open"
+    },
+    {
+        "id": 1005,
+        "issue": "Broken roller in conveyor system",
+        "status": "In Progress"
+    }
+]

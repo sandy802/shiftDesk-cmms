@@ -3,7 +3,8 @@
         "machine_id": 101,
         "machine_name": "CNC Machine",
         "status": "Running",
-        "location": "Plant A"
+        "location": "Plant A",
+        "status ": "closed "
     },
     {
         "machine_id": 102,
